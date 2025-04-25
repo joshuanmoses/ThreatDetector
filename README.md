@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Threat Detector</title>
-</head>
+   </head>
 <body>
 
 <h1>Threat Detector</h1>
@@ -45,7 +44,7 @@ Upon detecting a threat, it automatically generates a natural-language incident 
 <h2>📂 Folder Structure</h2>
 
 <pre><code>
-network_threat_detector/
+threatdetector/
 ├── config/            # App settings (email, thresholds, model parameters)
 ├── data/              # Data preprocessing scripts
 ├── models/            # ML and LLM models
@@ -65,8 +64,8 @@ network_threat_detector/
 
 <p>Clone the repository:</p>
 
-<pre><code>git clone https://github.com/yourusername/network_threat_detector.git
-cd network_threat_detector
+<pre><code>git clone https://github.com/yourusername/threatdetector.git
+cd threatdetector
 </code></pre>
 
 <p>Install dependencies:</p>
@@ -160,13 +159,6 @@ Recommended Actions:
   <li>Train custom anomaly detection models for specific environments</li>
   <li>Add multi-tenant monitoring support</li>
 </ul>
-
-<hr>
-
-<h2>📜 License</h2>
-
-<p>MIT License.<br>
-Feel free to fork, use, and contribute!</p>
 
 <hr>
 
