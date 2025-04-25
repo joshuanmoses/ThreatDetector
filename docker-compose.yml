@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  threat-detector:
+    build: .
+    container_name: threat_detector_app
+    restart: always
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    networks:
+      - threat-net
+
+networks:
+  threat-net:
+    driver: bridge
