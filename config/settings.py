@@ -1,5 +1,3 @@
-# config/settings.py
-
 EMAIL_SMTP_SERVER = "smtp.yourdomain"
 EMAIL_PORT = 587
 EMAIL_USERNAME = "ThreatDetector@yourdomain.com"
